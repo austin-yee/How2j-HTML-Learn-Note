@@ -1,0 +1,109 @@
+<!--一个完整的HTML文件，应该至少包含html元素，body元素，以及里面的内容-->
+<html>
+	<head>
+	<!--设置格式-->
+	<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+	</head>
+	<body>
+		<h1>标题h1</h1>
+		
+		<p>段落p，自带换行</p>
+		
+		<!--属性align="center"，属性名：align，属性值：center，属性值要用""括起来-->
+		<p align="center">居中</p>
+		
+		<p><b>粗体标签b，仅仅粗体</b></p>
+		<p><strong>粗体标签strong，强调语气</strong></p>
+		
+		<p><i>斜体i，仅仅斜体</i></p>
+		<p><em>斜体em，强调语气</em></p>
+		
+		<p><del>删除标签del</del></p>
+		<p><s>删除标签s，很多浏览器不支持</s></p>
+		
+		<p><ins>下划线ins</ins></p>
+		<p><u>下划线u，不建议使用</u></p>
+		
+		水平线
+		<hr/>
+		
+		<pre>
+		public class HelloWorld {
+			public static void main(String[] args) {
+				System.out.println("使用了预格式");
+			}
+		}
+		</pre>
+		
+		<!--"image，同级直接输入文件名，图片在上级目录../，上级目录的上级目录../../"-->
+		<div align="center">
+		<p>使用div使得图片居中</p>
+		<img width="65" height="65" src="file://C:/Users/17106/WebstormProjects/how2j/前端/html/images/skill1.png"/>
+		</div>
+		
+		<img src="file://C:/Users/17106/WebstormProjects/how2j/前端/html/images/not_exist.png" alt="使用alt属性，如果图片不存在则显示属性值"/>
+	
+		<br>换行标签br<br/>
+	
+		<table border="1">
+		<tr>
+			<td>tr为行，td为列，这是一行两列</td>
+			<td>先画行再画列</td>
+		</tr>
+		</table>
+		
+		<br/>
+		
+		<a href="https://how2j.cn/k/html/html-table/187.html#step339">表格相关属性</a>
+		
+		<br/>
+		
+		<!--taeget="_blank"属性设置空白页打开,title="设置提示文字"-->
+		
+		<a href="https://how2j.cn/k/html/html-table/187.html#step339" target="_blank" title="在新标签页跳转到表格相关属性">
+		超链接标签a
+		
+		</a>
+		
+		<br/>
+		
+		<a href="https://how2j.cn/k/html/html-table/187.html#step339" target="_blank" title="使用图片作为超链接">
+		<img src="file://C:/Users/17106/WebstormProjects/how2j/前端/html/images/skill1.png"/>
+		</a>
+		
+		<br/>
+		
+		<ul>
+		<li>无</li>
+		<li>序</li>
+		<li>列</li>
+		<li>表</li>
+		</ul>
+		
+		<ol>
+		<li>有</li>
+		<li>序</li>
+		<li>列</li>
+		<li>表</li>
+		</ol>
+		
+		<div>这是布局标签div，无显示效果，通常结合css进行页面布局</div>
+		<div>div是块元素，即自动换行，h1、table、p也是块元素</div>
+		
+		<span>这是布局标签span，无显示效果，通常结合css进行页面布局</span>
+		<span>span是内联元素，即不会自动换行，img、a、b、strong也是内联元素</span>
+		
+		<br/>
+		
+		<font color="blue" size="+2">字体，属性有color、size</font>、
+		
+		<br/>
+		
+		<p>内联框架，在标签页内打开一个小浏览器</p>
+		
+		<iframe src="file://C:/Users/17106/WebstormProjects/how2j/前端/html/基本元素.html" width="600px" height="400px">
+		</iframe>
+		
+	
+	</body>
+</html>
